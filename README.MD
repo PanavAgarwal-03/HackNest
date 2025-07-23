@@ -62,13 +62,10 @@ java src.Main
 
 
 ## 👨‍💻 Author
-Panav Agarwal
+**Panav Agarwal** 
 B.Tech in Computer Science, VIT-AP
 
-LinkedIn: linkedin.com/in/panav-agarwal-8b07ab249
-
-GitHub: github.com/PanavAgarwal-03
-
-Portfolio: panavagarwal.tech
-
-Email: panavagarwal1@gmail.com
+- 🔗 [LinkedIn](https://linkedin.com/in/panav-agarwal-8b07ab249)  
+- 💻 [GitHub](https://github.com/PanavAgarwal-03)  
+- 🌐 [Portfolio](https://panavagarwal.tech)  
+- 📧 [panavagarwal1@gmail.com](mailto:panavagarwal1@gmail.com)
