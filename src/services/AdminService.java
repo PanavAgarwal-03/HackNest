@@ -7,7 +7,7 @@ import src.models.User;
 import java.util.ArrayList;
 import java.util.List;
 
-class  AdminService implements IAdminService {
+public class  AdminService implements IAdminService {
     private final List<Problem> problemBank;
     private final List<User> registeredUsers;
 

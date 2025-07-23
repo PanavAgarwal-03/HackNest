@@ -6,12 +6,12 @@ import java.util.NoSuchElementException;
 import java.util.ArrayList;
 import java.util.List;
 
-class  UserService implements IUserService {
+public class  UserService implements IUserService {
 
     private final List<User> users;
     private int userCount ;
 
-    UserService(){
+    public UserService(){
         users = new ArrayList<>();
         userCount = 1;
     }

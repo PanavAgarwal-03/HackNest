@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-class ProblemService implements IProblemService {
+public class ProblemService implements IProblemService {
     private List<Problem> problems;
 
     @Override
