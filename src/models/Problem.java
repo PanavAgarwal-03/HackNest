@@ -8,7 +8,7 @@ public class Problem {
     private final int score;
     private final String expectedAnswer;
 
-    Problem(int problemId, String title, String description, String difficulty, int score, String expectedAnswer) {
+    public Problem(int problemId, String title, String description, String difficulty, int score, String expectedAnswer) {
         this.problemId = problemId;
         this.title = title;
         this.description = description;

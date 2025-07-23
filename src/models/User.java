@@ -49,4 +49,8 @@ public class User{
             this.solvedProblems.add(newsolved);
         }
     }
+    public boolean hasSolvedProblem(int problemId){
+        return solvedProblems.contains(problemId);
+    }
+
 }
