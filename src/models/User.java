@@ -10,6 +10,7 @@ public class User{
     private int score;
     private final List<Integer> solvedProblems;
 
+
     public User(int userId , String username,String password){
         this.UserId = userId;
         this.username = username;

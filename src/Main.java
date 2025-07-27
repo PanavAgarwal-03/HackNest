@@ -17,7 +17,7 @@ public class Main{
         // Initialize services
         IUserService userService = new UserService();
         IAdminService adminService = new AdminService(problems, users);
-        IProblemService problemService = new ProblemService();
+        IProblemService problemService = new ProblemService(problems);
         ISubmissionService submissionService = new SubmissionService();
         ILeaderboardService leaderboardService = new LeaderboardService(users);
 

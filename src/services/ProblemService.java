@@ -8,8 +8,11 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 public class ProblemService implements IProblemService {
-    private List<Problem> problems;
+    private final List<Problem> problems;
 
+    public ProblemService(List<Problem> problems){
+        this.problems = problems;
+    }
     @Override
     public void addProblem(Problem problem){
         problems.add(problem);
