@@ -8,6 +8,7 @@ public class User{
     private final  String username;
     private final String password;
     private int score;
+    private String role;
     private final List<Integer> solvedProblems;
 
 
@@ -16,6 +17,7 @@ public class User{
         this.username = username;
         this.password = password;
         this.score = 0;
+        this.role = "USER";
         this.solvedProblems = new ArrayList<>();
     }
 
